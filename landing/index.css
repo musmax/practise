@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+#one{
+    background-image: url("laand3.jpg"); 
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+  }
+.header{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10%;
+}
+.content{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: auto;
+    padding-top: 3%;
+}
+button{
+    background-color: rgb(83, 81, 81);
+    color: white;
+    font-size: 15px;
+    padding: 1.5%;
+    margin-left: 45%;
+    margin-top: 3%;
+    border: none;
+}
+button:hover{
+  background-color: white;
+  color: black;
+}
+#two{
+    background-color: whitesmoke;
+    height: 40vh;
+}
+.header2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 3%;
+  
+}
+.content2{
+    padding-left: 12%;
+    text-justify: auto;
+    font-size: 16px;
+    text-align: center;
+}
+.content22{
+    padding-left: 48%;
+    position: relative;
+    top: -21%;
+    text-justify: auto;
+    font-size: 16px;
+}
+#three{
+    background-color: black;
+    height: 80vh;
+}
+ .card{
+       width: 40vh;
+       height: 70vh;
+       background-color: white;
+       color: black;
+       float: left;
+       margin: 10px;
+       position: relative;
+       left: 200px;
+       text-align: center;
+       font-size: 18px;
+       top: 15px;
+   }
+.card p{
+    position: relative;
+    top: 30px;
+}
+
+.handle{
+    width: 100%;
+    height: 40vh;
+    background-color:white;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+}
+.handle p{
+    position: relative;
+    top: 30px;
+}
+.general-holder{
+    width: 100%;
+    height: 40vh;
+    float: left;
+    background-color: black;
+}
+.general-holder .four-one{
+    width: 50%;
+    height: 50vh;
+    float: left;
+    background-color: blue;
+    
+    
+}
+.general-holder .four-two{
+    width: 50%;
+    height: 50vh;
+    float: left;
+    background-color: black;
+}
+.general-holder .four-one h3{
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 100px;
+    
+
+    
+}
+.general-holder .four-one p{
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 150px;
+    font-size: 25px;
+}
+.general-holder .four-two h3{
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 100px;
+}
+.general-holder .four-two p{
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 150px;
+    font-size: 25px;
+}
+.footerz{
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 70vh;
+}
+.footerz p{
+    position: relative;
+    top: 70px;
+    font-size: 25px;
+    float: left;
+   margin-left: 50px;
+}
+@media screen and (max-width:770px){
+    *{
+        margin: 0px;
+        padding: 0px;
+      font-family: 'Poppins', sans-serif;
+    }
+    #one{
+        background-image: url("laand3.jpg"); 
+        height: 30vh;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.9;
+      }
+      .intro{
+          position: relative;
+          top: 40px;
+      }
+    .header{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        padding-top: 5%;
+        text-align: center;
+    }
+    h2{
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 15px;
+    }
+    .content{
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        padding: auto;
+        padding-top: 3%;
+        position: relative;
+        top: 15px;
+        color: aquamarine;
+    }
+    button{
+        background-color: rgb(83, 81, 81);
+        color: white;
+        font-size: 15px;
+        padding: 3.5%;
+        margin-left: 40%;
+        margin-top: 7%;
+        border: none;
+    }
+    button:hover{
+      background-color: white;
+      color: black;
+    }
+    #two{
+        background-color: whitesmoke;
+        height: 20vh;
+    }
+    .header2{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        padding: 3%;
+      
+    }
+    .content2{
+        padding-left: 12%;
+        text-justify: auto;
+        font-size: 16px;
+    }
+    .content22{
+        padding-left: 48%;
+        position: relative;
+        top: -21%;
+        text-justify: auto;
+        font-size: 16px;
+    }
+    #three{
+        background-color: black;
+        width: 100%;
+        height: 80vh;
+    }
+     .card{
+           width: 30vh;
+           height: 25vh;
+           background-color: white;
+           color: black;
+          
+           margin: 5px;
+           position: relative;
+           left: 30px;
+           text-align: center;
+           font-size: 18px;
+           top: 10px;
+       }
+    .card p{
+        position: relative;
+        top: 15px;
+    }
+    img{
+        width: 405px;
+        height: 150px;
+        object-fit: cover;
+
+    }
+    
+    .handle{
+        width: 100%;
+        height: 10vh;
+        background-color:white;
+        color: black;
+        text-align: center;
+        font-size: 15px;
+        position: relative;
+        top: 20px;
+    }
+    .handle p{
+        position: relative;
+        top: 40px;
+    }
+    .general-holder{
+        width: 100%;
+        height: 40vh;
+        float: left;
+        background-color: black;
+    }
+    .general-holder .four-one{
+        width: 50%;
+        height: 50vh;
+        float: left;
+        background-color: blue;
+        
+        
+    }
+    .general-holder .four-two{
+        width: 50%;
+        height: 50vh;
+        float: left;
+        background-color: black;
+    }
+    .general-holder .four-one h3{
+        text-align: center;
+        position: relative;
+        color: white;
+        top: 100px;
+        
+    
+        
+    }
+    .general-holder .four-one p{
+        text-align: center;
+        position: relative;
+        color: white;
+        top: 150px;
+        font-size: 25px;
+    }
+    .general-holder .four-two h3{
+        text-align: center;
+        position: relative;
+        color: white;
+        top: 100px;
+    }
+    .general-holder .four-two p{
+        text-align: center;
+        position: relative;
+        color: white;
+        top: 150px;
+        font-size: 25px;
+    }
+    .footerz{
+        background-color: red;
+        color: white;
+        width: 100%;
+        height: 70vh;
+    }
+    .footerz p{
+        position: relative;
+        top: 200px;
+        font-size: 25px;
+        float: left;
+       margin-left: 50px;
+    }
+}
+
+   

@@ -1,0 +1,64 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+#outside{
+    background-color: red;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+form{
+    width: 70%;
+    
+    border-radius: 8px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 1em;
+   }
+  fieldset{
+      margin:10px 0; 
+      border: 1px solid #ccc;
+  }
+  .personal label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  .personal input{
+      margin: 10px 5px;
+  }
+ #uploads{
+      background-color: red;
+      color: white;
+      width: 120px;
+      height: 50px;
+      
+  }
+  #submitz{
+    background-color: red;
+    color: white;
+    width: 120px;
+    height: 50px;
+    margin-left:400px;
+    border-radius: 5px;
+
+  }
+  @media screen and (max-width:770px){
+      #submitz{
+        background-color: red;
+        color: white;
+        width: 120px;
+        height: 50px;
+        margin-left:125px;
+        border-radius: 5px;
+      }
+  }
+
+

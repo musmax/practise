@@ -1,0 +1,666 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#restaurant{
+    /* background: linear-gradient(rgba(255,192,203,0.5),#BF40BF);*/
+    background-image: linear-gradient(to right, pink , purple);
+     height: 500vh;
+ }
+
+
+ .big-imagez{
+     position: relative;
+     top: 70px;
+     left: 55px;
+ }
+ .price-image{
+     width: 450px;
+     height: 195px;
+     background-color: yellow;
+     color: black;
+     margin: 10px;
+     position: relative;
+     top: -457px;
+     left: 823px;
+}
+.price-image:hover{
+    width: 450px;
+    height: 195px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    position: relative;
+    top: -457px;
+    left: 823px;
+}
+.price-image p{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 5px;
+    font-size: 100px;
+    font-stretch: narrower;
+}
+.price-image p:hover{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 5px;
+    font-size: 60px;
+    font-stretch: extra-expanded;
+    }
+.price-image .drink{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    top: -52px;
+    
+}
+.intro-image {
+   background-color: yellow;
+    color: black;
+    width: 230px;
+    height: 60px;
+    line-height: 2;
+    font-family: Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    float: left;
+    margin: 5px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 2px;
+    font-weight: bold;
+  }
+  
+  .link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .intro-image:hover{
+      background-color: black;
+      color: white;
+      
+  }
+  .desc-image{
+      width: 300px;
+      height: 200px;
+      background-color: white;
+      color: black;
+      float: left;
+      margin: 5px;
+      position: relative;
+      top: -430px;
+      left: 45px;
+      text-align: center;
+      font-size: 16px;
+      transition: width 0.5s, height 0.5s,transform 0.5s;
+      transition-timing-function: ease-in;
+}
+.desc-image:hover{
+    width: 350px;
+    height: 250px;
+    background-color: yellow;
+    color: black;
+    float: left;
+    margin: 5px;
+    position: relative;
+    top: -430px;
+    left: 45px;
+    text-align: center;
+    font-size: 16px;
+    transform: rotate(360deg);
+
+}
+.desc-image img{
+position: relative;
+top: 15px;
+}
+.desc-image h5{
+    position: relative;
+    top: 20px; 
+}
+.desc-image p{
+    position: relative;
+    top: 30px; 
+    font-weight: 100;
+  
+}
+.desc-image p:hover{
+    position: relative;
+    top: 30px; 
+    font-weight: 100;
+ 
+}
+* {box-sizing:border-box}
+.slides{
+    width: 1230px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 50px;
+    top: -100px;
+}
+.girlz{
+    position: relative;
+    left: 800px;
+    top: -500px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  top: -200px;
+  left: -200px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+   right: 0;
+  border-radius: 3px 0 0 3px;
+ }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  top: -300px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.gallery-image{
+    
+    float: left;
+    margin: 5px;
+   position: relative;
+   left: 45px;
+   top: -470px;
+}
+.single-service{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom:   20px;
+    color: #fff;
+    position: relative;
+}
+
+.overlay{
+    width: 55.5%;
+    height: 390%;
+    position: absolute;
+    top: -335px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#009688);
+     opacity: 0;
+     transition: 1s;
+     left: 58px;
+}
+.single-service:hover .overlay{
+    opacity: 1;
+}
+.service-desc{
+    width: 80%;
+    position: relative;
+    bottom: 0;
+    left: 10%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 1s;
+    left: -300px;
+    top: -100px;
+}
+hr{
+    background: white;
+    height: 2px;
+    border: 0px;
+    margin: 15px auto;
+    width: 60%;
+    left: 800px;
+    top: -100px;
+   
+}
+.service-desc p{
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    left: 700px;
+}
+.service-desc h3{
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+   color: white;
+   top: -100px;
+   left: 700px;
+}
+.single-service:hover .service-desc{
+bottom: 40%;
+opacity: 1;
+}
+
+@media screen and (max-width:770px){
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    
+    }
+    #restaurant{
+        /* background: linear-gradient(rgba(255,192,203,0.5),#BF40BF);*/
+        background-image: linear-gradient(to right, pink , purple);
+         height: 500vh;
+         
+     }
+    .big-imagez img{
+         position: relative;
+         top: -10px;
+         left: 0px;
+         width: 300px;
+         height: 250px;
+         object-fit: cover;
+     }
+     .single-service{
+        flex-basis: 48%;
+        text-align: center;
+        border-radius: 7px;
+        margin-bottom:   20px;
+        color: #fff;
+        position: relative;
+    }
+    
+    .overlay{
+        width:300px;
+        height:250px;
+        position: absolute;
+        top: -192px;
+        border-radius: 10px;
+        cursor: pointer;
+        background: linear-gradient(rgba(0,0,0,0.5),#009688);
+         opacity: 0;
+         transition: 1s;
+         left: 52px;
+    }
+    .single-service:hover .overlay{
+        opacity: 1;
+    }
+    .service-desc{
+        width: 80%;
+        position: relative;
+        bottom: 0;
+        left: 10%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: 1s;
+        left: -500px;
+        top: -100px;
+    }
+    hr{
+        background: white;
+        height: 2px;
+        border: 0px;
+        margin: 15px auto;
+        width: 60%;
+        left: 800px;
+        top: 10px;
+       
+    }
+    .service-desc p{
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        top: -50px;
+        left: 700px;
+    }
+    .service-desc h3{
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+       color: white;
+       top: -100px;
+       left: 700px;
+    }
+    .single-service:hover .service-desc{
+    bottom: 40%;
+    opacity: 1;
+    }
+     .price-image{
+         width: 180px;
+         height: 120px;
+         background-color: yellow;
+         color: black;
+         margin: 15px;
+         position: relative;
+         top: -300px;
+         left: 350px;
+    }
+    .price-image:hover{
+        width: 200px;
+         height: 120px;
+        background-color: black;
+        color: white;
+        margin: 15px;
+        position: relative;
+        top: -340px;
+        left: 350px;
+    }
+    .price-image p{
+        text-align: center;
+        font-weight: bold;
+        padding: 30px 10px;
+        font-size: 15px;
+        font-stretch: narrower;
+    }
+    .price-image p:hover{
+        text-align: center;
+        font-weight: bold;
+        padding: 30px 10px;
+        font-size: 60px;
+        font-stretch: normal;
+        }
+    .price-image .drink{
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        position: relative;
+        top: -52px;
+        
+    }
+    .intro-image {
+       background-color: yellow;
+        color: black;
+        width: 230px;
+        height: 60px;
+        line-height: 2;
+        font-family: Helvetica, Arial, sans-serif;
+        cursor: pointer;
+        float: left;
+        margin: 5px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        font-size: 25px;
+        text-align: center;
+        padding: 10px 2px;
+        font-weight: bold;
+      }
+      
+      .link {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+      .intro-image:hover{
+          background-color: black;
+          color: white;
+          
+      }
+      .desc-image{
+          width: 200px;
+          height: 200px;
+          background-color: white;
+          color: black;
+          float: left;
+          margin: 5px;
+          position: relative;
+          top: -280px;
+          left: 45px;
+          text-align: center;
+          font-size: 16px;
+          transition: width 0.5s, height 0.5s,transform 0.5s;
+          transition-timing-function: ease-in;
+    }
+    .desc-image:hover{
+        width: 150px;
+        height: 150px;
+        background-color: yellow;
+        color: black;
+        float: left;
+        margin: 1px;
+        position: relative;
+        top: -280px;
+        left: 45px;
+        text-align: center;
+        font-size: 16px;
+        transform: rotate(360deg);
+    
+    }
+    .desc-image img{
+    position: relative;
+    top: 15px;
+    }
+    .desc-image h5{
+        position: relative;
+        top: 20px; 
+    }
+    .desc-image p{
+        position: relative;
+        top: 30px; 
+        font-weight: 100;
+      
+    }
+    .desc-image p:hover{
+        position: relative;
+        top: 30px; 
+        font-weight: 100;
+     
+    }
+    * {box-sizing:border-box}
+    .slides{
+        width: 1230px;
+        height: 400px;
+        background-color: white;
+        color: black;
+        position: relative;
+        left: 50px;
+        top: 300px;
+    }
+ 
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 350px;
+      position: relative;
+      margin: auto;
+      top: 10px;
+      left: -400px;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+       right: 0;
+      border-radius: 3px 0 0 3px;
+     }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      position: relative;
+      top: -300px;
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    .girlz img{
+        position: relative;
+        left: -100px;
+        top: -100px;
+        width: 100px;
+        height: 100px;
+        object-fit:cover;
+    }
+    
+    .gallery-image{
+       float: left;
+        margin: 10px;
+       position: relative;
+       left: 45px;
+       top: 100px;
+       width:150px;
+       height:150px;
+    }
+
+}

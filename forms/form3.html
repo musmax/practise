@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="form3.css">
+</head>
+
+<body>
+  
+    <ul>
+        <li><button id="home"><a class="active" href="#home">icon</a></button></li>
+        <li><button id="news"><a href="#news">view in editors</a></button></li>
+        <li><button id="login"><a href="#contact">Log in</a></button></li>
+        <li><button id="signup"><a href="#about">Sign up</a></button></li>
+      </ul>
+      <div id="side-nav">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">FEATURES</a>
+                </li>
+                <li>
+                    <a href="#">SERVICES</a>
+                </li>
+                <li>
+                    <a href="#">TESTIMONIES</a>
+                </li>
+                <li>
+                    <a href="#">MEET US</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menu-btn">
+        <img src="menu.png" id="menu">
+    </div>
+    <script>
+        var sidenav = document.getElementById("side-nav");
+        var menubtn = document.getElementById("menu-btn");
+        var menu = document.getElementById("menu");
+        sidenav.style.right = "-250px";
+        menubtn.onclick = function () {
+            if (sidenav.style.left == "-250px") {
+                sidenav.style.left = "0";
+                menu.src = "close.jpg";
+            }
+            else {
+                sidenav.style.left = "-250px";
+                menu.src = 'menu.png';
+            }
+        }
+    </script>
+
+    <h1>freeCodeCamp Survey Form</h1>
+    <h3>
+        Thank you for taking the time to help us improve the platform</h3>
+    <form id="survey" action="#" method="POST">
+        <div class="general">
+
+            <!--fieldset-->
+
+
+            <label for="name" id="name">Name:</label>
+            <br>
+            <input type="text" placeholder="Enter your name" required>
+            <br>
+            <br>
+            <br>
+            <label for="email" id="email">Email:</label>
+            <br>
+            <input type="email" placeholder="Enter your email here" required>
+            <br>
+            <br>
+            <br>
+            <label for="address" id="address">Address:</label>
+            <br>
+            <input type="text" placeholder="Enter your address here" required>
+            <br>
+            <br>
+            <br>
+
+
+
+            <label>Which option best describe your current role</label>
+            <input type="text" list="cars" / placeholder="Select current role">
+            <datalist id="cars">
+                <option>Volvo</option>
+                <option>Saab</option>
+                <option>Mercedes</option>
+                <option>Audi</option>
+            </datalist>
+            <br>
+            <br>
+            <div class="musa">
+                <label for="name" id="name">would you like to recommend freecamp to your friends and family</label>
+                <br>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="vehicle1">Yes </label>
+
+                <br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="vehicle1">No </label>
+                <br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="vehicle1">May be </label>
+                <br>
+                <br>
+                <br>
+            </div>
+
+
+            <label>What is your favourite feature about code camp</label>
+            <input type="text" list="cars" / placeholder="Select an option">
+            <datalist id="cars">
+                <option>Volvo</option>
+                <option>Saab</option>
+                <option>Mercedes</option>
+                <option>Audi</option>
+            </datalist>
+            <br>
+
+        
+            <div class="musa">
+                <label for="apply">What would you like to see improved? (Check all that apply)</label>
+
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">I have a bike </label>
+                <br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label>
+                <br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label>
+                <br>
+
+            </div>
+            <br>
+            <br>
+            <br>
+            <label>Any comments or suggestions?</label><br><br>
+            <textarea placeholder="Enter text here" maxlength="100" rows="8" cols="80"></textarea>
+            <br>
+            <br>
+            <br>
+
+            <button type="submit">submit</button>
+         </div>
+    </form>
+</body>
+
+</html>

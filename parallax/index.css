@@ -1,0 +1,66 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+
+#one{
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url("para.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  
+}
+#two{
+   
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url("para1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    margin-top: -20px;
+
+    
+}
+#three{
+   
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url("para2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    margin-top: -20px;
+}
+#one{
+    
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url("para.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  margin-top: -20px;
+}
+.textz{
+    text-align:center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-top:-30px;
+}
+.parallax{
+    width: 350px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    margin: 0 auto;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    font-size: 30px;
+    padding:  auto;
+}
